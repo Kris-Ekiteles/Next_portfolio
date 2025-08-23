@@ -22,7 +22,11 @@ button{
   padding: 3px;
   border-radius: 2px;
  }
-
+ .main-page{
+  margin: 4px;
+  padding: 10px;
+  color: green;
+ }
 
 
 
