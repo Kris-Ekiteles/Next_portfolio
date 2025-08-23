@@ -10,7 +10,10 @@ export default function Home() {
         <button className="btn">view my work</button>
       </div>
       <div className="hero">
-        <h3>this is the hero section</h3>
+        <h3>Who am i ?</h3>
+        <p>
+          A MERN stack developer passionate about building full-cycle applications. I bridge the gap between front-end elegance and back-end robustness, delivering seamless and dynamic user experiences.
+        </p>
       </div>
     </div>
   );
