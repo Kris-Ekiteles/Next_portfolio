@@ -6,6 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <h3>Hello, I'm Kris</h3>
       <p>full stack developer $ UX/UI enthusiast</p>
+      <button className="btn">view my work</button>
     </div>
   );
 }
