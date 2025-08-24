@@ -61,6 +61,12 @@ padding-top: 1.5rem;
 border: 2px solid green;
 
 }
+.services{
+ margin-right: 1rem;
+ border: 1px solid yellow;
+  background-color: aliceblue;
+  padding: 3px;
+}
 
 
 @media (prefers-color-scheme: dark) {
