@@ -24,13 +24,24 @@ export default function Home() {
       </div>
       <div className="services-container">
         <div className="services" id="service-1">
-          <h2>web and mobile apps</h2>
+          <h4>web and mobile apps</h4>
+          <p>turning your ideas into functional digital experience, combining design and technology to solve user needs across devices.</p>
         </div>
         <div className="services" id="service-2">
-          <h2>Web and mobile app hosting</h2>
+          <h4>Web and mobile app hosting</h4>
+          <p>
+            Provide the essential infrustructure to store, serve and manage
+            digital content, Ensuring accessibility, performance and security
+            for users worldwide.
+          </p>
         </div>
         <div className="services" id="service-3">
-          <h2>SEO marketing</h2>
+          <h4>SEO marketing</h4>
+          <p>
+            Strategically enhancing website visibility in orgarnic search
+            results, driving targeted traffic without paid advertising. By
+            optimizing content and technical elements.
+          </p>
         </div>
       </div>
     </div>
