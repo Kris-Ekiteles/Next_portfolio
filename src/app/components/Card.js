@@ -1,16 +1,16 @@
 import React from 'react'
 import Image from 'next/image';
+
 const Card = () => {
   return (
     <div className="container">
       <div className="card">
         <div className="card-img-box">
-          <img src="public\next.svg" />
+          <img src="/weather.jpg" />
         </div>
-        <div className='card-body'>
-          <h3>name</h3>
-          <p>view/ btn</p>
-
+        <div className="card-body">
+          <h3>Weather App</h3>
+          <button>explore</button>
         </div>
       </div>
     </div>
