@@ -25,7 +25,10 @@ export default function Home() {
       <div className="services-container">
         <div className="services" id="service-1">
           <h4>web and mobile apps</h4>
-          <p>turning your ideas into functional digital experience, combining design and technology to solve user needs across devices.</p>
+          <p>
+            turning your ideas into functional digital experience, combining
+            design and technology to solve user needs across devices.
+          </p>
         </div>
         <div className="services" id="service-2">
           <h4>Web and mobile app hosting</h4>
@@ -43,6 +46,16 @@ export default function Home() {
             optimizing content and technical elements.
           </p>
         </div>
+      </div>
+      <div className="technology-container">
+        <h3>technologies</h3>
+        <div className="technology-card">html</div>
+        <div className="technology-card">css</div>
+        <div className="technology-card">javascript</div>
+        <div className="technology-card">MongoDB</div>
+        <div className="technology-card">React</div>
+        <div className="technology-card">Node</div>
+        <div className="technology-card">Express</div>
       </div>
     </div>
   );
