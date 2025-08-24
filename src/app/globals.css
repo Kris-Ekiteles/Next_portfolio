@@ -48,6 +48,8 @@ img {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 .services-container{
   margin: 0 auto;
@@ -62,7 +64,7 @@ border: 2px solid green;
 }
 .services{
  margin-right: 1rem;
- border: 1px solid yellow;
+ border: 1px solid yellowgreen;
   background-color: aliceblue;
   padding: 3px;
   text-align: center;
