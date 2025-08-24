@@ -37,6 +37,23 @@ border: 2px solid black;
  height: 3px;
 
  }
+ img{
+  height: 150px;
+  width: 180px;
+  object-fit: cover;
+object-position: center;
+
+ }
+ .container{
+  border: 2px solid yellow;
+  width: 200px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  display: flex;
+align-items: center;
+justify-content: center;
+  
+ }
 
 
 
