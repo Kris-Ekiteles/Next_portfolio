@@ -11,26 +11,26 @@ body {
 }
 
 button {
-  background: #2d3142;
+  background: #4a5645;
+  border: none;
   color: #d8d5db;
   height: 40px;
   width: fit-content;
   padding: 3px;
-  border-radius: 2px;
+  border-radius: 3px;
   margin-top: 10px;
   cursor: pointer;
 }
 .view {
   margin: 4px;
   padding: 10px;
-  color: green;
 }
 hr {
   width: 75%;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 2px solid black;
+  border: 2px solid #cd5b43;
   height: 3px;
 }
 img {
@@ -52,6 +52,7 @@ img {
   text-align: center;
 }
 .services-container{
+  background-color: #0b1c48;
   margin: 0 auto;
   display: flex;
 justify-content: center;
@@ -66,7 +67,7 @@ margin-bottom: 1rem;
 .services{
  margin-right: 1rem;
  border: 1px solid yellowgreen;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   padding: 3px;
   text-align: center;
   cursor: pointer;
@@ -81,6 +82,13 @@ width: 70%;
 height: fit-content;
 padding: 1.5rem;
 border: 2px solid green;
+}
+.technology-card{
+   margin-right: 1rem;
+ border: 1px solid yellowgreen;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
 }
 
 
