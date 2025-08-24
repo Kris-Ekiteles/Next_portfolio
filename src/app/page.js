@@ -1,6 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Card from "./components/Card";
+import { FaReact, FaNode, FaJs, FaHtml5, FaCss3 } from "react-icons/fa";
+import { TbBrandMongodb } from "react-icons/tb";
+import { SiExpress } from "react-icons/si";
+
 
 export default function Home() {
   return (
@@ -48,14 +52,40 @@ export default function Home() {
         </div>
       </div>
       <div className="technology-container">
-        <h3>technologies</h3>
-        <div className="technology-card">html</div>
-        <div className="technology-card">css</div>
-        <div className="technology-card">javascript</div>
-        <div className="technology-card">MongoDB</div>
-        <div className="technology-card">React</div>
-        <div className="technology-card">Node</div>
-        <div className="technology-card">Express</div>
+        <div className="technology-card">
+          {" "}
+          <FaHtml5 color="#61DAFB" size="2em" />
+          html
+        </div>
+        <div className="technology-card">
+          {" "}
+          <FaCss3 color="#61DAFB" size="2em" />
+          css
+        </div>
+        <div className="technology-card">
+          {" "}
+          <FaJs color="#61DAFB" size="2em" />
+          javascript
+        </div>
+        <div className="technology-card">
+          {" "}
+          <TbBrandMongodb color="#61DAFB" size="2em" />
+          MongoDB
+        </div>
+        <div className="technology-card">
+          {" "}
+          <FaReact color="#61DAFB" size="2em" />
+          React
+        </div>
+        <div className="technology-card">
+          {" "}
+          <FaNode color="#61DAFB" size="2em" />
+          Node
+        </div>
+        <div className="technology-card">
+          {" "}
+          <SiExpress color="#61DAFB" size="2em" /> Express
+        </div>
       </div>
     </div>
   );
