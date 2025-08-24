@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div className="main-page">
       <div className="view">
-        
         <h3>Hello, I'm Kris</h3>
         <p>full stack developer $ UX/UI enthusiast</p>
         <button className="btn">view my work</button>
@@ -14,13 +13,25 @@ export default function Home() {
       <div className="hero">
         <h3>Who am i ?</h3>
         <p>
-          A MERN stack developer passionate about building full-cycle applications. I bridge the gap between front-end elegance and back-end robustness, delivering seamless and dynamic user experiences.
+          A MERN stack developer passionate about building full-cycle
+          applications. I bridge the gap between front-end elegance and back-end
+          robustness, delivering seamless and dynamic user experiences.
         </p>
       </div>
       <hr></hr>
       <div className="projects">
-        
-       <Card />
+        <Card />
+      </div>
+      <div className="services">
+        <div>
+          <h2>web and mobile apps</h2>
+        </div>
+        <div>
+          <h2>Web and mobile app hosting</h2>
+        </div>
+        <div>
+          <h2>SEO marketing</h2>
+        </div>
       </div>
     </div>
   );
