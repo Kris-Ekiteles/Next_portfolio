@@ -22,14 +22,14 @@ export default function Home() {
       <div className="projects">
         <Card />
       </div>
-      <div className="services">
-        <div>
+      <div className="services-container">
+        <div className="services" id="service-1">
           <h2>web and mobile apps</h2>
         </div>
-        <div>
+        <div className="services" id="service-2">
           <h2>Web and mobile app hosting</h2>
         </div>
-        <div>
+        <div className="services" id="service-3">
           <h2>SEO marketing</h2>
         </div>
       </div>
