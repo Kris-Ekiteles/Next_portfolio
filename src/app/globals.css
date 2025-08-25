@@ -114,9 +114,10 @@ padding: 1.5rem;
 border: 2px solid green;
 }
 .technology-card{
-  margin: 4px;
+  margin: 7px;
  border: 1px solid yellowgreen;
   text-align: center;
   cursor: pointer;
+  padding: 1.5rem;
 }
 }
