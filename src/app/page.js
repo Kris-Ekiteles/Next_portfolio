@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import { FaReact, FaNode, FaJs, FaHtml5, FaCss3 } from "react-icons/fa";
 import { TbBrandMongodb } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
@@ -86,6 +87,9 @@ export default function Home() {
           {" "}
           <SiExpress color="#61DAFB" size="2em" /> 
         </div>
+      </div>
+      <div className="footer">
+        < Footer />
       </div>
     </div>
   );
