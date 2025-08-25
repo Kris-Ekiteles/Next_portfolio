@@ -51,96 +51,88 @@ img {
   margin-bottom: 1rem;
   text-align: center;
 }
-.services-container{
+.services-container {
   background-color: #0b1c48;
   margin: 0 auto;
   display: flex;
-justify-content: center;
-align-items: center;
-width: 70%;
-height: fit-content;
-padding: 1.5rem;
-border: 2px solid green;
-margin-bottom: 1rem;
-
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: fit-content;
+  padding: 1.5rem;
+  border: 2px solid green;
+  margin-bottom: 1rem;
 }
-.services{
- margin-right: 1rem;
- border: 1px solid yellowgreen;
+.services {
+  margin-right: 1rem;
+  border: 1px solid yellowgreen;
   /* background-color: aliceblue; */
   padding: 3px;
   text-align: center;
   cursor: pointer;
 }
-.technology-container{
-  
-   margin: 0 auto;
+.technology-container {
+  margin: 0 auto;
   display: flex;
-justify-content: center;
-align-items: center;
-width: 70%;
-height: fit-content;
-padding: 1.5rem;
-border: 2px solid green;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: fit-content;
+  padding: 1.5rem;
+  border: 2px solid green;
 }
-.technology-card{
-   margin-right: 1rem;
- border: 1px solid yellowgreen;
+.technology-card {
+  margin-right: 1rem;
+  border: 1px solid yellowgreen;
   padding: 1rem;
   text-align: center;
   cursor: pointer;
 }
 
-
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-    
   }
 }
 @media (max-width: 600px) {
- .technology-container{
-  
-   margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto auto;
-/* justify-content: center;
+  .technology-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: center;
 align-items: center; */
-height: fit-content;
-padding: 2px;
-padding: 1.5rem;
-border: 2px solid green;
-}
-.technology-card{
-  margin: 7px;
- border: 1px solid yellowgreen;
-  text-align: center;
-  cursor: pointer;
-  padding: 1.5rem;
-}
-.services-container{
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-justify-content: center;
-align-items: center;
-height: fit-content;
-border: 2px solid green;
-margin-bottom: 1rem;
-
-}
-.services{
- margin-right: 1rem;
- border: 1px solid yellowgreen;
-  /* background-color: aliceblue; */
-  margin: 4px;
-  padding: 3px;
-  text-align: center;
-  
-}
-.services h4{
-  margin-bottom: 4px;
-  
-}
+    height: fit-content;
+    padding: 2px;
+    padding: 1.5rem;
+    border: 2px solid green;
+  }
+  .technology-card {
+    margin: 7px;
+    border: 1px solid yellowgreen;
+    text-align: center;
+    cursor: pointer;
+    padding: 1.5rem;
+  }
+  .services-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:  4px;
+    border: none;
+    height: fit-content;
+    margin-bottom: 1rem;
+  }
+  .services {
+    margin-right: 1rem;
+    border: 1px solid yellowgreen;
+    /* background-color: aliceblue; */
+    margin: 4px;
+    padding: 3px;
+    text-align: center;
+  }
+  .services h4 {
+    margin-bottom: 4px;
+  }
 }
