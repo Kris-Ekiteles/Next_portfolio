@@ -126,7 +126,9 @@ align-items: center; */
   }
   .services {
     margin-right: 1rem;
-    border: 1px solid yellowgreen;
+    border: none;
+    border-radius: 3px;
+    background-color: #14213d;
     /* background-color: aliceblue; */
     margin: 4px;
     padding: 3px;
