@@ -96,5 +96,27 @@ border: 2px solid green;
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+    
   }
+}
+@media (max-width: 600px) {
+ .technology-container{
+  
+   margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+/* justify-content: center;
+align-items: center; */
+width: 70%;
+height: fit-content;
+padding: 2px;
+padding: 1.5rem;
+border: 2px solid green;
+}
+.technology-card{
+  margin: 4px;
+ border: 1px solid yellowgreen;
+  text-align: center;
+  cursor: pointer;
+}
 }
