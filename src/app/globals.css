@@ -126,7 +126,6 @@ border: 2px solid green;
 justify-content: center;
 align-items: center;
 height: fit-content;
-padding: 1.5rem;
 border: 2px solid green;
 margin-bottom: 1rem;
 
@@ -138,6 +137,10 @@ margin-bottom: 1rem;
   margin: 4px;
   padding: 3px;
   text-align: center;
+  
+}
+.services h4{
+  margin-bottom: 4px;
   
 }
 }
