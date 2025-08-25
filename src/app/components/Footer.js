@@ -11,6 +11,10 @@ const Footer = () => {
         <button>send</button>
         <BsFillTelephoneOutboundFill />
       </div>
+      <div className='search'>
+        <input type='input' placeholder='search site'/>
+        <button>search</button>
+      </div>
       <div className="social-media">
         <FaFacebook />
         <BsTwitterX />
