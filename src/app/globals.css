@@ -128,8 +128,9 @@ align-items: center; */
   .services {
     margin-right: 1rem;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: #142d4a;
+    box-shadow: 5px 5px 10px 1px;
     margin: 9px;
     padding: 5px;
     text-align: center;
