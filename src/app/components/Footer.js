@@ -21,6 +21,9 @@ const Footer = () => {
         <FaWhatsapp />
         <FaGithub />
       </div>
+      <div className='watermark'>
+        
+      </div>
     </div>
   );
 }
