@@ -130,8 +130,9 @@ align-items: center; */
     border: none;
     border-radius: 10px;
     background-color: #142d4a;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 2px 2px 2px 2px ;
     margin: 9px;
+    
     padding: 5px;
     text-align: center;
   }
